@@ -1,6 +1,11 @@
+source 'https://github.com/lhallcx/lhall-podspecs.git'
+
 use_frameworks!
+
 target 'testlibA_Tests' do
   pod 'testlibA', :path => '../'
+
+  podspec :path => '../testlibA.podspec'
   
   
 end

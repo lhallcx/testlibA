@@ -1,16 +1,24 @@
 PODS:
-  - testlibA (0.1.0)
+  - testcommon (0.1.0)
+  - testlibA (0.1.0):
+    - testcommon (= 0.1.0)
 
 DEPENDENCIES:
+  - testcommon (= 0.1.0)
   - testlibA (from `../`)
+
+SPEC REPOS:
+  https://github.com/lhallcx/lhall-podspecs.git:
+    - testcommon
 
 EXTERNAL SOURCES:
   testlibA:
     :path: "../"
 
 SPEC CHECKSUMS:
-  testlibA: 432e179b7a9907c2c278d7820578b70b8c80ef1f
+  testcommon: 49e49ae20df0d326250cf74264dc1c088c226d80
+  testlibA: c24f35c3b40ea68828953d8878bbdcb4fc716117
 
-PODFILE CHECKSUM: 9bc9818cf595d9ee0c797d8f67df2e5a7472f345
+PODFILE CHECKSUM: 9a16184e574cf5d0fa69b71b96874ae40a65d3c1
 
 COCOAPODS: 1.5.3

@@ -1,22 +1,27 @@
 {
   "name": "testlibA",
   "version": "0.1.0",
-  "summary": "A short description of testlibA.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/\u001b[01;31m\u001b[Kacct\u001b[m\u001b[K<blob>=lhallcx/testlibA",
+  "summary": "Part of the multi-lib test.",
+  "description": "Part of the multi-lib test.",
+  "homepage": "https://github.com/lhallcx/testlibA",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "\u001b[01;31m\u001b[Kacct\u001b[m\u001b[K<blob>=lhallcx": "lhall@cafex.com"
+    "Leigh Hall": "lhall@cafex.com"
   },
   "source": {
-    "git": "https://github.com/\u001b[01;31m\u001b[Kacct\u001b[m\u001b[K<blob>=lhallcx/testlibA.git",
+    "git": "https://github.com/lhallcx/testlibA.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "testlibA/Classes/**/*"
+  "source_files": "testlibA/Classes/**/*",
+  "dependencies": {
+    "testcommon": [
+      "0.1.0"
+    ]
+  }
 }
