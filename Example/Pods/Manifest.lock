@@ -1,0 +1,16 @@
+PODS:
+  - testlibA (0.1.0)
+
+DEPENDENCIES:
+  - testlibA (from `../`)
+
+EXTERNAL SOURCES:
+  testlibA:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  testlibA: 432e179b7a9907c2c278d7820578b70b8c80ef1f
+
+PODFILE CHECKSUM: 9bc9818cf595d9ee0c797d8f67df2e5a7472f345
+
+COCOAPODS: 1.5.3
